@@ -29,3 +29,5 @@ GAME OF THRONES
   - House
   - Westeros
   - wildling
+
+* player info
