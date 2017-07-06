@@ -1,0 +1,31 @@
+GAME OF THRONES
+
+* Main Board
+
+* Tokens per player
+  - power
+  - supply
+  - victory
+  - garrison
+  - order
+  - influene track markers
+
+* Tokens
+  - neutral forces
+  - dominance
+    - iron throne
+    - valirian steel
+    - crow
+  - game round marker
+  - wildling marker
+
+* units per player
+  - footman
+  - knight
+  - siege engine
+  - ship
+
+* Cards
+  - House
+  - Westeros
+  - wildling

@@ -1,0 +1,32 @@
+WARRIOR KNIGHTS
+
+* Board
+
+* units
+  - nobles
+
+* Cards
+  - Stronghold cards
+  - noble
+  - fait
+  - event
+  - agenda
+  - mercenary
+  - regular troops
+  - action
+
+* Tokens
+  - crowns
+  - votes
+  - faith
+  - influence
+  - casualty
+  - breach
+  - baron markers
+  - expedition marker
+  - siege marker
+  - control markers
+  - stronghold token 
+  - chairman (sfyri)
+  - head of church (kakagioungka)
+
