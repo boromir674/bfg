@@ -77,3 +77,6 @@ GAME OF THRONES
    - repeat until termination condition is met: player controls 7 castles or 10 rounds have been completed
 ** save game winner and stats
 
+=======
+  - 
+>>>>>>> WIP add player action pool and abstract elements to the bg models

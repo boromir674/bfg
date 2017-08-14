@@ -18,10 +18,16 @@ LORD OF THE RINGS
   - Sauron : npc figure
 
 * Boards
+<<<<<<< bc667f138b7140c070ed1d95dee13a76de71ffa1
   - Senario boards
     - Event track
     - "playable tracks"
   - Region board : single track mixture of sripted sequences (linear events) and senario play phase
+=======
+  - Main board
+    - Tracks
+      tiles
+>>>>>>> WIP add player action pool and abstract elements to the bg models
 
 * abstract elements
   - player turn
