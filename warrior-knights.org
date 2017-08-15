@@ -54,7 +54,7 @@ WARRIOR KNIGHTS
 * croupier duties
   - shuffle deck
   - give cards/tokens to player
-  
+
 * state changing commands
   - player take item
   - remove item from player
@@ -80,3 +80,7 @@ WARRIOR KNIGHTS
    - repeat until termination condition is met: infuence pool gets depleted
 ** save game winner and stats
 
+=======
+=======
+>>>>>>> update player action pool and abstract elements
+>>>>>>> update player action pool and abstract elements

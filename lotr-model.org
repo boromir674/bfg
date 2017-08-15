@@ -44,6 +44,7 @@ LORD OF THE RINGS
   - heal 1
   - draw 2 hobbit cards
 
+
 * Effects
   - move pointer on track (i.e. playing a battle card) : move sth on predefined track
   - move hobbit/sauron on track (heal, corrupt) : move sth on predefined track

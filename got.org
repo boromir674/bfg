@@ -76,7 +76,3 @@ GAME OF THRONES
    - reveal orders and resolve (activate effect) according to play order
    - repeat until termination condition is met: player controls 7 castles or 10 rounds have been completed
 ** save game winner and stats
-
-=======
-  - 
->>>>>>> WIP add player action pool and abstract elements to the bg models
