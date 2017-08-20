@@ -1,0 +1,10 @@
+!SESSION 2017-08-20 01:28:09.717 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-08-20 01:29:11.388
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/home/kostas/software_and_libs/eclipse/java-oxygen/eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
