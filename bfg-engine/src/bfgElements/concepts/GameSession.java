@@ -14,7 +14,7 @@ public class GameSession {
 	private Player[] players;
 	private BoardGame bfg;
 	private HashMap<Avatar, Player> avatar2Player = new HashMap<Avatar, Player>();
-	
+	private int seed;
 	/**
 	 * @param players an array with the Player objects
 	 * @param bfg an instance of the bfg to play on

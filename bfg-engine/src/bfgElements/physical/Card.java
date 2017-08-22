@@ -1,13 +1,13 @@
 package bfgElements.physical;
 
 import bfgElements.concepts.Effect;
-import graphics.Graphics;
+import graphics.Graphic;
 
 public class Card {
 	
 	private Effect effect;
-	private Graphics image;
+	private Graphic image;
 	private String name;
 	private String label;
-
+	
 }
