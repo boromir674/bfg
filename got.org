@@ -31,3 +31,33 @@ GAME OF THRONES
   - wildling
 
 * player info
+
+* abstract elements
+  - round
+  - player turn
+  - simultaneous players' action/order commands allocation phase
+  - events
+  - battle phase
+    - simultaneous selection of hand cards phase
+    - retreate phase
+  - infuence (as an abstract yet accountable concept)
+  
+  
+* total player action pool
+  - place token on map
+  - select card for battle
+  - select region (move, attack, spawn troop or retreate, ...)
+  - bid influence tokens
+  - upgrade (replace unit)
+  - activate effect of valyrian steel
+  - choose crow effect
+  - select troops
+  
+
+* Effects
+  - negate effect (fire token)
+  - add value to measuring forces (+attack/defence token)
+  - generate resource (crown token)
+  - move unit on map (move/attack token)
+  - 
+

@@ -30,3 +30,35 @@ WARRIOR KNIGHTS
   - chairman (sfyri)
   - head of church (kakagioungka)
 
+* abstract elements
+  - pile of actions resolution
+  - faith (as an abstract yet accountable concept)
+  - influence (as an abstract yet accountable concept)
+  - voting power (as an abstract yet accountable concept)
+
+* total player action pool
+  - select region
+  - invest on expedition track
+  - select card effect
+  - bid vote tokens
+  - spend faith
+  - select card
+  - select between siege or assault
+  - spend money
+  - select baron marker spot
+  
+
+* croupier duties
+  - shuffle deck
+  - give cards/tokens to player
+  
+* state changing commands
+  - player take item
+  - remove item from player
+  - relocate baron on map
+  - 
+
+* Effects
+  - add value to measuring forces (troop cards)
+  - generate resource
+

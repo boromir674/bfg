@@ -25,3 +25,27 @@ LORD OF THE RINGS
       tiles
 
 
+* abstract elements
+  - player turn
+  - senario
+  - events
+  - check for 3 different emblems (periodic requirement check and analogous application of effect)
+
+* total player action pool
+  - wear ring
+  - buy (gandalf card for shields)
+  - select cards for play/discard
+  - determine the order that  marks/cards get played
+  - activate yellow card effect
+  - heal 1
+  - draw 2 hobbit cards
+
+* Effects
+  - move pointer on track (i.e. playing a battle card)
+  - move hobbit/sauron on track (heal, corrupt)
+  - take hobbit cards 
+  - throw dice
+  - make obtainable resources unavailable (discard region cards)
+  - neglect consequences from missing requirements
+  - gain right to ignore fulfilling requirements
+
