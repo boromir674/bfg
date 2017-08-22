@@ -1,0 +1,4 @@
+https://gamedev.stackexchange.com/questions/34413/passive-skills-and-items
+
+# use to set an ssh conection that does not require credentials every time to push
+git remote set-url origin git@github.com:username/repo.git
