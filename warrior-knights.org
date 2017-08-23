@@ -14,7 +14,6 @@ WARRIOR KNIGHTS
   - mercenary
   - regular troops
   - action
-
 * Tokens
   - crowns
   - votes
@@ -47,7 +46,6 @@ WARRIOR KNIGHTS
   - spend money
   - select baron marker spot
   
-
 * croupier duties
   - shuffle deck
   - give cards/tokens to player
@@ -61,4 +59,19 @@ WARRIOR KNIGHTS
 * Effects
   - add value to measuring forces (troop cards)
   - generate resource
+
+* Game session flow
+** initialization phase
+   - map players to Barons
+     + give noblemen figures, cards, troops
+   - enter assignment of troops to noblemen" subphase
+   - enter turn-based "positioning of noblemen" subphase
+** round-based gameplay
+   - select cards for each pile deck
+   - combine and shuffle each deck
+   - resolve each card for each deck
+     + possibly enter battle phase
+     + possibly enter voting phase
+   - repeat until termination condition is met: infuence pool gets depleted
+** save game winner and stats
 

@@ -31,7 +31,6 @@ GAME OF THRONES
   - wildling
 
 * player info
-
 * abstract elements
   - round
   - player turn
@@ -41,8 +40,7 @@ GAME OF THRONES
     - simultaneous selection of hand cards phase
     - retreate phase
   - infuence (as an abstract yet accountable concept)
-  
-  
+    
 * total player action pool
   - place token on map
   - select card for battle
@@ -53,11 +51,23 @@ GAME OF THRONES
   - choose crow effect
   - select troops
   
-
 * Effects
   - negate effect (fire token)
   - add value to measuring forces (+attack/defence token)
   - generate resource (crown token)
   - move unit on map (move/attack token)
-  - 
+  
+* Game session flow
+** initialization phase
+   - map players to families
+   - execute orders for each family
+     + give character cards, tokens
+     + place troops in starting positions on the Westeros map
+     + place marker on Tracks
+** round-based gameplay
+   - reveal and resolve top westeros event cards
+   - enter order-token placement phase 
+   - reveal orders and resolve (activate effect) according to play order
+   - repeat until termination condition is met: player controls 7 castles or 10 rounds have been completed
+** save game winner and stats
 
