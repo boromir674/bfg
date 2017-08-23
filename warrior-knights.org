@@ -1,33 +1,38 @@
 WARRIOR KNIGHTS
 
 * Board
-
+  - Map of "Spain"? (very suspicious)
+  - tracks
+  - deck piles/stacks
+  - influence pool
+  - discard piles
+  
 * units
-  - nobles
+  - nobles : faction/player mapped figures
 
 * Cards
-  - Stronghold cards
-  - noble
-  - fait
+  - Stronghold cards : per player indication cards, +- modifier
+  - noble : per player, character mapped cards
+  - fate : event cards
   - event
   - agenda
-  - mercenary
-  - regular troops
-  - action
+  - mercenary : buyable, upkeepcost, +- modifier
+  - regular troops : +- modifier, recyclable
+  - action : selectable during active play
 * Tokens
-  - crowns
-  - votes
-  - faith
-  - influence
-  - casualty
-  - breach
-  - baron markers
-  - expedition marker
-  - siege marker
-  - control markers
-  - stronghold token 
-  - chairman (sfyri)
-  - head of church (kakagioungka)
+  - crowns : resource, currency, tradable 
+  - votes : resource, bidable
+  - faith : resource
+  - influence : scoreConcept
+  - casualty : +- modifier
+  - breach : +- modifier
+  - baron markers : player track token
+  - expedition marker : track token
+  - siege marker : indication token
+  - control markers : indication token
+  - stronghold token : +- modifier
+  - chairman (sfyri) : indication of Position token
+  - head of church (kakagioungka) : indicationof Position token
 
 * abstract elements
   - pile of actions resolution

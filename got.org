@@ -1,34 +1,37 @@
 GAME OF THRONES
 
 * Main Board
+  - Map of Westeros
+  - Several tracks
+  - Deck piles/stacks
 
 * Tokens per player
-  - power
-  - supply
-  - victory
-  - garrison
-  - order
-  - influene track markers
+  - power : bidable, placeable on map to establish control
+  - supply : track token
+  - victory : track token
+  - garrison : +- modifier (inherent defensive strength of home area)
+  - order : placeable on map during playing phase 
+  - influene track markers : 3 track tokens
 
 * Tokens
   - neutral forces
   - dominance
-    - iron throne
-    - valirian steel
-    - crow
-  - game round marker
-  - wildling marker
+    - iron throne : indication of Position token
+    - valirian steel : indication of Position token
+    - crow : indication of Position token
+  - game round marker : round indicator track token
+  - wildling marker : track token
 
 * units per player
-  - footman
-  - knight
-  - siege engine
-  - ship
+  - footman : strength 1, upkeep 1
+  - knight : strength 2, upkeep 1 
+  - siege engine : attack 5, def 1
+  - ship : att/def 1 
 
 * Cards
-  - House
-  - Westeros
-  - wildling
+  - House : per player character cards playable during battle
+  - Westeros : event cards
+  - wildling : event/effect cards
 
 * player info
 * abstract elements
@@ -38,6 +41,9 @@ GAME OF THRONES
   - events
   - battle phase
     - simultaneous selection of hand cards phase
+      - effect application
+      - strength comparison
+      - damage deal
     - retreate phase
   - infuence (as an abstract yet accountable concept)
     

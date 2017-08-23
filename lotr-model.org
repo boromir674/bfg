@@ -1,29 +1,27 @@
 LORD OF THE RINGS
 
 * Cards
-  - Hobbit
-  - Region
-  - Gandalf
-  - Character
+  - Hobbit : resource cards strictly track progression effects/orders
+  - Region : resource cards with track movement orders or effects
+  - Gandalf : buyable resource cards
+  - Character : informative cards 
 
 * Tokens
-  - Shields
-  - Emblem
-  - Ring
-  - event marks
+  - Shields : Resource, currency, scoreConcept
+  - Emblem : Resource 
+  - Ring : Resource 
+  - event marks : carry event in the form of effect or order
 
-* Other
-  - Die
-
+* Die
 * figures
-  - Hobbits
-  - Sauron
+  - Hobbits : mappings to players
+  - Sauron : npc figure
 
 * Boards
-  - Main board
-    - Tracks
-      tiles
-
+  - Senario boards
+    - Event track
+    - "playable tracks"
+  - Region board : single track mixture of sripted sequences (linear events) and senario play phase
 
 * abstract elements
   - player turn
@@ -62,4 +60,3 @@ LORD OF THE RINGS
      + wear ring 
    - repear until termination condition is met: ring bearer dies or ring is destroyed
 ** save game stats
-
