@@ -79,8 +79,3 @@ WARRIOR KNIGHTS
      + possibly enter voting phase
    - repeat until termination condition is met: infuence pool gets depleted
 ** save game winner and stats
-
-=======
-=======
->>>>>>> update player action pool and abstract elements
->>>>>>> update player action pool and abstract elements
