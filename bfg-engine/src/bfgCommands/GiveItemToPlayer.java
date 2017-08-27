@@ -3,7 +3,7 @@ package bfgCommands;
 import bfgElements.concepts.Player;
 import bfgElements.physical.BfgItem;
 
-public class GiveItemToPlayer implements BfgCommand {
+public class GiveItemToPlayer implements Command {
 	
 	private BfgItem item;
 	private Player player;

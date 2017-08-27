@@ -64,5 +64,5 @@ LORD OF THE RINGS
      + play cards, marks, heal, draw cards
      + buy help
      + wear ring 
-   - repear until termination condition is met: ring bearer dies or ring is destroyed
+   - repeat until termination condition is met: ring bearer dies or ring is destroyed
 ** save game stats

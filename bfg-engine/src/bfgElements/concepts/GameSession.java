@@ -15,6 +15,8 @@ public class GameSession {
 	private BoardGame bfg;
 	private HashMap<Avatar, Player> avatar2Player = new HashMap<Avatar, Player>();
 	private int seed;
+	private int activePlayerIndex = 0;
+	
 	/**
 	 * @param players an array with the Player objects
 	 * @param bfg an instance of the bfg to play on
@@ -42,4 +44,7 @@ public class GameSession {
 		this.avatar2Player.put(anAvatar, aPlayer);
 	}
 	
+	public Player getActivePlayer() {
+		return this.players[this.activePlayerIndex];
+	}
 }

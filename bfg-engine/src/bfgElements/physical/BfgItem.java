@@ -4,6 +4,7 @@ public class BfgItem {
 	
 	private String name;
 	private String label;
+	
 	public String getName() {
 		return name;
 	}

@@ -26,7 +26,7 @@ public class Card {
 		this.color = builder.color;
 		this.numericValue = builder.numericalValue;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
