@@ -4,10 +4,15 @@ package bfgElements.physical;
  * Models any generic item that be found in a board game. 
  * @author kostadinos
  */
-public class BfgItem {
+public abstract class BfgItem {
 	
 	private String name;
 	private String label;
+	
+	public BfgItem(String name, String label) {
+		this.name = name;
+		this.label = label;
+	}
 	
 	/**
 	 * Reports the title of the item object i.e. "Helm's Deep Region Card, Riders of Rohan".

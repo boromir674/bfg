@@ -1,6 +1,6 @@
 package bfgElements.physical.board;
 
-import bfgElements.concepts.Effect;
+import bfgElements.concepts.effect.Effect;
 import graphics.Graphic;
 
 public class Square {

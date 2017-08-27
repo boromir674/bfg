@@ -2,9 +2,7 @@ package bfgElements.physical;
 
 import graphics.Sprite;
 
-public class Token {
-	
-	private String name;
-	private String label;
+public class Token extends BfgItem {
+
 	private Sprite sprite;
 }

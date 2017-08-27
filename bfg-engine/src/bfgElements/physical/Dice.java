@@ -1,7 +1,8 @@
 package bfgElements.physical;
 
-import bfgElements.concepts.Effect;
 import java.util.Random;
+
+import bfgElements.concepts.effect.Effect;
 
 /** 
  * Base class for modeling a dice.
