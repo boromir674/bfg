@@ -8,7 +8,7 @@ package bfgElements.mechanics;
  * @author kostadinos
  *
  */
-public interface Resource extends Accountable{
+public interface Resource extends Accountable, Concept{
 	
 	/**
 	 * Allows for increasing the bulk by the specified amount. 

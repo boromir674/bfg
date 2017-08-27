@@ -2,10 +2,8 @@ package bfgElements.physical;
 
 import graphics.Sprite;
 
-public class Figure {
+public class Figure extends BfgItem {
 	
-	private String name;
-	private String label;
 	private Sprite sprite;
 	
 }
