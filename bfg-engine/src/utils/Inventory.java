@@ -3,7 +3,7 @@ package utils;
 import java.util.HashMap;
 import java.util.Map;
 
-import bfgElements.mechanics.Resource;
+import bfgElements.gameMechanics.Resource;
 import bfgElements.physical.BfgItem;
 import bfgElements.physical.Figure;
 

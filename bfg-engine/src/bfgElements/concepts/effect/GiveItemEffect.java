@@ -1,8 +1,8 @@
 package bfgElements.concepts.effect;
 
-public class PlayerTakeCardsEffect extends Effect {
+public class GiveItemEffect extends Effect {
 
-	public PlayerTakeCardsEffect(String name) {
+	public GiveItemEffect(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}

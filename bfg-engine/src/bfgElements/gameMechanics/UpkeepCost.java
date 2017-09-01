@@ -1,7 +1,7 @@
 /**
  *
  */
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * An object that has an upkeep cost for the player to maintain during the game.

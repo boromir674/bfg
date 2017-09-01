@@ -1,4 +1,4 @@
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * A possible effect during gameplay i.e. "give card to player". Can be either active or passive.

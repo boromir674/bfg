@@ -1,8 +1,9 @@
 package bfgElements.concepts.effect;
 
 import bfgCommands.Command;
+import utils.PrototypeCapable;
 
-public abstract class Effect implements Cloneable, Command {
+public abstract class Effect implements PrototypeCapable, Command {
 	
 	private String label;
 //	private Graphic image;
@@ -16,14 +17,8 @@ public abstract class Effect implements Cloneable, Command {
 	 * @see java.lang.Object#clone()
 	 */
 	@Override
-	protected Effect clone() throws CloneNotSupportedException {
-		Effect clone = null;
-		try {
-            clone = (Effect)super.clone();
-        } catch (CloneNotSupportedException ex) {
-            ex.printStackTrace();
-        }
-        return clone;
+	public Effect clone() throws CloneNotSupportedException {
+		return (Effect) super.clone();
 	}
 
 	/* (non-Javadoc)
@@ -32,19 +27,5 @@ public abstract class Effect implements Cloneable, Command {
 	@Override
 	public String toString() {
 		return this.label;
-	}
-	
-}
-
-abstract class AbstractFactory {
-    public Effect prototype;
-
-    public Effect makePhase() throws CloneNotSupportedException {
-        return prototype.clone();
-    }
-    
-    // Here is the place to define all the necessary methods for the API to be able to create all necessary effects in got, lotr and wk.
-    public abstract Effect create();
-
-    public abstract Effect makeGrade();
+	}	
 }

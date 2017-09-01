@@ -1,7 +1,7 @@
 /**
  * 
  */
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * An object that can come in and out of play during a game session.

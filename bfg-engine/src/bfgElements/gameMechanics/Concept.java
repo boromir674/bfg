@@ -1,4 +1,4 @@
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * Models any generic concept represented as a String (text of words) such as "influence", "battle", etc. 

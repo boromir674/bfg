@@ -1,111 +1,101 @@
 package bfgElements.physical.card;
 
-import bfgElements.concepts.effect.Effect;
-import graphics.Graphic;
+import java.util.Map;
 
-public class Card {
-	
-	private final String name;
-	private final String label;
-	private final String type;
-	private final Effect effect;
-	private final Graphic image;
-	private final String symbol;
-	private final int numOfSymbols;
-	private final String color;
-	private final int numericValue;
-	
-	private Card(CardBuilder builder) {
-		this.name = builder.name;
-		this.label = builder.label;
+import bfgElements.concepts.effect.Effect;
+import bfgElements.physical.BfgItem;
+import graphics.Graphic;
+import javax.annotation.Generated;
+
+public class Card extends BfgItem {
+
+	private String type;
+	private Effect effect;
+	private Graphic image;
+	private Map<String, Integer> symbols;
+	private String color;
+	private int numericValue;
+
+	@Generated("SparkTools")
+	private Card(Builder builder) {
 		this.type = builder.type;
 		this.effect = builder.effect;
 		this.image = builder.image;
-		this.symbol = builder.symbol;
-		this.numOfSymbols = builder.numOfSymbols;
+		this.symbols = builder.symbols;
 		this.color = builder.color;
-		this.numericValue = builder.numericalValue;
+		this.numericValue = builder.numericValue;
 	}
 
-	public String getName() {
-		return name;
-	}
-	public String getLabel() {
-		return label;
-	}
-	public String getType() {
-		return type;
-	}
-	public Effect getEffect() {
-		return effect;
-	}
-	public Graphic getImage() {
-		return image;
-	}
-	public String getSymbol() {
-		return symbol;
-	}
-	public int getNumOfSymbols() {
-		return numOfSymbols;
-	}
-	public String getColor() {
-		return color;
-	}
-	public int getNumericValue() {
-		return numericValue;
-	}
+//	public Card(String name, String label, String type) {
+//		super(name, label);
+//		this.type = type;
+//	}
 	
-	public static class CardBuilder {
-		
-		private final String name;
-		private String label;
-		private final String type;
+	/**
+	 * Reports the type of card that this object represents.
+	 * @return the type
+	 */
+	public String getType() {
+		return this.type;
+	}
+
+	/**
+	 * Creates builder to build {@link Card}.
+	 * @return created builder
+	 */
+	@Generated("SparkTools")
+	public static Builder builder() {
+		return new Builder();
+	}
+
+	/**
+	 * Builder to build {@link Card}.
+	 */
+	@Generated("SparkTools")
+	public static final class Builder {
+		private String type;
 		private Effect effect;
 		private Graphic image;
-		private String symbol;
-		private int numOfSymbols;
+		private Map<String, Integer> symbols;
 		private String color;
-		private int numericalValue;
-		
-		public CardBuilder(String name, String type) {
-			this.name = name;
-			this.type = type;
+		private int numericValue;
+
+		private Builder() {
 		}
-		
-		public CardBuilder label(String label) {
-			this.label = label;
+
+		public Builder withType(String type) {
+			this.type = type;
 			return this;
 		}
-		public CardBuilder effect(Effect effect) {
+
+		public Builder withEffect(Effect effect) {
 			this.effect = effect;
 			return this;
 		}
-		public CardBuilder graphic(Graphic image) {
+
+		public Builder withImage(Graphic image) {
 			this.image = image;
 			return this;
 		}
-		public CardBuilder symbol(String symbol) {
-			this.symbol = symbol;
+
+		public Builder withSymbols(Map<String, Integer> symbols) {
+			this.symbols = symbols;
 			return this;
 		}
-		public CardBuilder numOfSymbols(int numOfSymbols) {
-			this.numOfSymbols = numOfSymbols;
-			return this;
-		}
-		public CardBuilder color(String color) {
+
+		public Builder withColor(String color) {
 			this.color = color;
 			return this;
 		}
-		public CardBuilder numericalValue(int numericalValue) {
-			this.numericalValue = numericalValue;
+
+		public Builder withNumericValue(int numericValue) {
+			this.numericValue = numericValue;
 			return this;
 		}
-		
+
 		public Card build() {
 			return new Card(this);
 		}
-		
 	}
-	
-	
+
 }

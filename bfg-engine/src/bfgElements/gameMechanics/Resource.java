@@ -1,7 +1,7 @@
 /**
  * 
  */
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * An object that represents a resource. An object implementing this interface is considered to be a resourse that can be gathered by the players during the game. 

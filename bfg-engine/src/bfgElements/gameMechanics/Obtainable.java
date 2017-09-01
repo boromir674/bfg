@@ -1,7 +1,7 @@
 /**
  * 
  */
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 import bfgElements.concepts.Player;
 

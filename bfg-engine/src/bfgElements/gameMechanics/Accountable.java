@@ -1,4 +1,4 @@
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * An object that can be counted.

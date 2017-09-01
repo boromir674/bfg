@@ -1,4 +1,4 @@
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * A object that behaves as a scoring concept. Contributes to calculating a player's score.

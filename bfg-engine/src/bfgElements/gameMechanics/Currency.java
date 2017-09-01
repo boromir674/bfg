@@ -1,4 +1,4 @@
-package bfgElements.mechanics;
+package bfgElements.gameMechanics;
 
 /**
  * A class implementing this interface simply indicates that has exchangeable power. Yields purchasing power.

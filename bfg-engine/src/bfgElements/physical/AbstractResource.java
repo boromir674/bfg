@@ -1,6 +1,6 @@
 package bfgElements.physical;
 
-import bfgElements.mechanics.Resource;
+import bfgElements.gameMechanics.Resource;
 
 public class AbstractResource implements Resource {
 	
