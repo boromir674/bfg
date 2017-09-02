@@ -8,9 +8,10 @@ public abstract class Effect implements PrototypeCapable, Command {
 	
 	private String label;
 	private Graphic image;
-	private 
-	private Command command;
-	
+	private String subject;
+	private String predicate;
+	private String object;
+
 	public Effect(String name) {
 		this.label = name;
 	}
