@@ -58,10 +58,10 @@ GAME OF THRONES
   - select troops
   
 * Effects
-  - negate effect (fire token)
+  - negate effect (fire token) : negate selected token from valid neighbouring regions 
   - add value to measuring forces (+attack/defence token)
-  - generate resource (crown token)
-  - move unit on map (move/attack token)
+  - generate resource (crown token) : from resource generators
+  - move unit on map (move/attack token) : place sth on map region
   
 * Game session flow
 ** initialization phase

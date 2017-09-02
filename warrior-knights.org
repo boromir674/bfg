@@ -59,11 +59,11 @@ WARRIOR KNIGHTS
   - player take item
   - remove item from player
   - relocate baron on map
-  - 
 
 * Effects
   - add value to measuring forces (troop cards)
-  - generate resource
+  - generate resource : from resource generators
+  - apply law : apply passive effect
 
 * Game session flow
 ** initialization phase
