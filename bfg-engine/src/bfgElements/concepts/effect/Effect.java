@@ -1,13 +1,15 @@
 package bfgElements.concepts.effect;
 
 import bfgCommands.Command;
+import graphics.Graphic;
 import utils.PrototypeCapable;
 
 public abstract class Effect implements PrototypeCapable, Command {
 	
 	private String label;
-//	private Graphic image;
-//	private Command command;
+	private Graphic image;
+	private 
+	private Command command;
 	
 	public Effect(String name) {
 		this.label = name;

@@ -16,6 +16,4 @@ public class Avatar {
 		return this.name;
 	}
 	
-	
-	
 }

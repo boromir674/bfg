@@ -17,7 +17,6 @@ public class Table {
 	public void setBoardGame(BoardGame bfg) {
 		this.bfg = bfg;
 	}
-	
 	/**
 	 * @return the players
 	 */
@@ -30,5 +29,5 @@ public class Table {
 	public BoardGame getBoardGame() {
 		return this.bfg;
 	}
-
+	
 }

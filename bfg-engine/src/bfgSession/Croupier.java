@@ -9,12 +9,8 @@ public class Croupier {
 	private Table table;
 	private GameSession session;
 	
-	public Croupier() {
-		
-	}
-	
-	public void setTable(Table aTable) { 
-		this.table = aTable;
+	public Croupier(Table table) {
+		this.table = table;
 	}
 	
 	/**
@@ -31,5 +27,15 @@ public class Croupier {
 	
 	public void assignAvatarToPlayer(Avatar anAvatar, Player aPlayer) {
 		this.session.mapAvatarToPlayer(anAvatar, aPlayer);
+	}
+
+	public void registerAvatar(Avatar avatar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deregisterAvatar(Avatar avatar) {
+		// TODO Auto-generated method stub
+		
 	}
 }

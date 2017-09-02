@@ -24,18 +24,3 @@ public class PassiveEffect extends Effect {
 
 }
 
-class PassiveEffectFactory extends AbstractEffectFactory {
-
-	@Override
-	public Effect TrackProgression() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Effect ActivePlayerThowDice() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-}
